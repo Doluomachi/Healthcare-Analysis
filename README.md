@@ -56,9 +56,49 @@ The dataset was split
 - 20% Testing Data
 - Random State = 42 (For reproducibility)
 
-'''from sklearn.model_selection import train_test_split
+```Python
+from sklearn.model_selection import train_test_split
 
 X_train, X_test, Y_train, Y_test = train_test_split(
     X, Y, test_size=0.2, random_state=42
 )
-'''
+```
+**Feature Scaling**
+
+Standardization of the trainig and test datasets was applied to prevent data leakage and consistent model performance.
+```Python
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+```
+**Model Traning**
+
+The linear Regression model was trained using the training dataset.
+```Python
+from sklearn.linear_model import LinearRegression
+
+model = LinearRegression()
+model.fit(X_train_scaled, Y_train)
+```
+**Model Evaluation**
+
+This evaluates the model by generating predictions on the test dataset using the trained model and evaluating the performance by computing the Mean Squared Error.
+```Python
+from sklearn.metrics import mean_squared_error
+
+Y_pred = model.predict(X_test_scaled)
+mse = mean_squared_error(Y_test, Y_pred)
+print("Mean_sqaured_error:", mse)
+```
+
+**Model Coefficient**
+
+| Feature    | Coefficient | Interpretation                  |
+| ---------- | ----------- | ------------------------------- |
+| Salary     | 1.27e−09    | Very weak positive relationship |
+| Age        | −2.71e−05   | No meaningful effect            |
+| Experience | 1.30e−04    | Slight positive association     |
+
