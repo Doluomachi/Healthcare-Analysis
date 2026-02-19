@@ -47,3 +47,18 @@ p = 0.94
 **Result:** No Statistically significant difference in performance between trained and untrained staff.
 
 ### 3. Regression Model
+A linear regression model was built to know whether **Salary** significantly predicts Performance Score, controlling for Age and Years of Experience.
+
+**Train Test Split**
+
+The dataset was split
+- 80% Training Data
+- 20% Testing Data
+- Random State = 42 (For reproducibility)
+
+'''from sklearn.model_selection import train_test_split
+
+X_train, X_test, Y_train, Y_test = train_test_split(
+    X, Y, test_size=0.2, random_state=42
+)
+'''
