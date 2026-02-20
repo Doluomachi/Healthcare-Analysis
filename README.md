@@ -102,3 +102,35 @@ print("Mean_sqaured_error:", mse)
 | Age        | −2.71e−05   | No meaningful effect            |
 | Experience | 1.30e−04    | Slight positive association     |
 
+**Interpretation**
+
+- Salary shows a positive but negligible coefficient.
+
+- Age has no statistically meaningful influence.
+
+- Experience has a very small positive association.
+
+### 4. State-Level Insights
+
+**Top 5 Highest Paid State**
+- Ogun
+
+- Anambra
+
+- Benue
+
+- Plateau
+
+- Bauchi
+
+**Top 5 Performing State**
+- Sokoto
+
+- Kogi
+
+- Ekiti
+
+- Katsina
+
+- Delta
+
