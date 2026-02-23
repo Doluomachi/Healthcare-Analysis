@@ -134,3 +134,12 @@ print("Mean_sqaured_error:", mse)
 
 - Delta
 
+## 📊 Top 5 Highest Paid States (Power BI)
+
+![Top Paid States](visuals/powerbi_top_paid.png)
+
+---
+
+## 📈 Top 5 Best Performing States (Power BI)
+
+![Top Performing States](visuals/powerbi_top_performance.png)
