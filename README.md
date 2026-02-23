@@ -136,7 +136,7 @@ print("Mean_sqaured_error:", mse)
 
 ## 📊 Top 5 Highest Paid States (Power BI)
 
-![Highest Paid State](Visuals/powerbi_top_paid.png)
+![Highest Paid State](Visuals/Best Performed State.png)
 
 ---
 
