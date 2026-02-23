@@ -135,8 +135,11 @@ print("Mean_sqaured_error:", mse)
 - Delta
 
 
-[Highest Paid State](../Visuals/Highest Paid State.png)
+![Highest Paid State. alt](./Visuals/Highest Paid State.png).
 
 Top 5 Best Performing States (Power BI)
 
 [Best Performed State](Visuals/Best Performed State.png)
+
+[Link Text](./path/to/your/file.md)
+
