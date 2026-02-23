@@ -149,3 +149,11 @@ print("Mean_sqaured_error:", mse)
 - Invest in targeted performance management systems
 - Avoid relying solely on salary increments
 
+## Conclusions
+Neither salary nor demographic variables show strong predictive power. This suggests that performance may be influenced by unmeasured factors such as work environment, management quality, or intrinsic motivation.
+
+## Tools Used
+- Excel (Data Generation)
+- Python (Pandas, NumPy, Scikit-learn)
+- SQL
+- Power BI (Dashboard Creation)
