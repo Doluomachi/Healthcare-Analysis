@@ -123,6 +123,8 @@ print("Mean_sqaured_error:", mse)
 
 - Bauchi
 
+![Highest Paid State](https://github.com/Doluomachi/Healthcare-Analysis/blob/62d63d21e8f5b17a6fd91008e9cebf20881ba87e/Visuals/Highest%20Paid%20State.png)
+
 **Top 5 Performing State**
 - Sokoto
 
@@ -134,12 +136,6 @@ print("Mean_sqaured_error:", mse)
 
 - Delta
 
-
-![Highest Paid State. alt](./Visuals/Highest Paid State.png).
-
-Top 5 Best Performing States (Power BI)
-
 ![Best Performed State](https://github.com/Doluomachi/Healthcare-Analysis/blob/ec7c142ee2ce08d9c297cecd026a65e1f3e7ad0e/Visuals/Best%20Performed%20State.png)
 
-[Link Text](./path/to/your/file.md)
 
