@@ -138,4 +138,14 @@ print("Mean_sqaured_error:", mse)
 
 ![Best Performed State](https://github.com/Doluomachi/Healthcare-Analysis/blob/ec7c142ee2ce08d9c297cecd026a65e1f3e7ad0e/Visuals/Best%20Performed%20State.png)
 
+## Key Insights
+- From the T-test carried out for trained and untrained staffs, there's no statistically significant difference in performance for both catergories.
+- The Regression model shows that Age has almost no effect on performance.
+- Experience has little effect on performance whereas salary has little to no effect on performance.
+- Although Ogun and Anambra have the highest average salaries, they do not appear among the top performing states. This reinforces the finding that salary alone does not drive performance outcomes.
+
+## Recommendations
+- Focus on structured skill development programs
+- Invest in targeted performance management systems
+- Avoid relying solely on salary increments
 
