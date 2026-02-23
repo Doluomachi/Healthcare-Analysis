@@ -139,7 +139,7 @@ print("Mean_sqaured_error:", mse)
 
 Top 5 Best Performing States (Power BI)
 
-[Best Performed State](Visuals/Best Performed State.png)
+![Best Performed State](https://github.com/Doluomachi/Healthcare-Analysis/blob/ec7c142ee2ce08d9c297cecd026a65e1f3e7ad0e/Visuals/Best%20Performed%20State.png)
 
 [Link Text](./path/to/your/file.md)
 
